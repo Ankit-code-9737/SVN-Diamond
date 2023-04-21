@@ -1,0 +1,753 @@
+
+@media only screen and (max-width: 1600px) {
+    .ex-diamond-wrpp {
+        /* -ms-grid-columns: (1fr)[6]; */
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    .banner-sec .details {
+        padding: 130px 0;
+    }
+
+    .banner-sec #diamond,
+    .banner-sec #diamond2 {
+        max-width: 130px;
+    }
+
+    .main-title {
+        font-size: 55px;
+    }
+
+    .banner-sec .main-title {
+        max-width: 600px;
+    }
+
+    .main-subt {
+        font-size: 22px;
+    }
+
+    .banner-sec .chipole-img {
+        bottom: -60px;
+        max-width: 280px;
+    }
+
+    .explore-sec {
+        padding-top: 0;
+    }
+
+    .ex-diamond-wrpp {
+        margin-top: 60px;
+    }
+
+    .made-for-diamond h3 {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .di-certification {
+        padding: 60px 0;
+    }
+
+    .explore-di .details-div h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .explore-di .details-div.first {
+        margin-right: 20px;
+    }
+
+    .explore-di .details-div {
+        margin-top: 30px;
+    }
+
+    .explore-di .details-div p {
+        margin-bottom: 12px;
+    }
+
+    .text-top h6 {
+        font-size: 18px;
+    }
+
+    .about-details img {
+        margin: 80px 0;
+    }
+
+    .privacy-details h6 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .ex-diamond-wrpp {
+        /* -ms-grid-columns: (1fr)[5]; */
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .made-for-diamond .details .diamond-one {
+        top: -16%;
+        left: 1%;
+        max-width: 90px;
+    }
+
+    .made-for-diamond .details .diamond-two {
+        bottom: -28%;
+        left: 3%;
+        max-width: 170px;
+    }
+
+    .made-for-diamond .details .diamond-three {
+        top: -20%;
+        right: 3%;
+        max-width: 90px;
+    }
+
+    .our-brilliant .details {
+        max-width: 520px;
+    }
+
+    .our-brilliant .main-subt {
+        font-size: 18px;
+    }
+
+    .our-brilliant .b-one-img {
+        max-width: 216px;
+    }
+
+    .our-brilliant .b-two-img {
+        max-width: 270px;
+    }
+
+    .our-brilliant .svg-logo {
+        left: 40px;
+        top: 30px;
+    }
+
+    .di-certification .details {
+        max-width: 500px;
+    }
+
+    .di-certification .two-i {
+        max-width: 300px;
+    }
+
+    .di-certification .one-i {
+        max-width: 270px;
+    }
+
+    .logos-sec img {
+        max-height: 70px;
+    }
+
+    .logos-sec {
+        padding-top: 20px;
+    }
+
+    .contact-us {
+        padding: 50px 0 20px 0;
+    }
+
+    .about-us {
+        padding: 140px 0 80px 0;
+    }
+
+    .diamond-t {
+        padding-top: 140px;
+        padding-bottom: 0;
+    }
+
+    .diamond-t .table-div {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .diamond-t .table-div {
+        overflow: auto;
+    }
+
+    .diamond-t .table-div::-webkit-scrollbar {
+        height: 3px;
+    }
+
+    .diamond-t .table-div .table {
+        min-width: 1100px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1285px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 60px;
+    }
+
+    .navbar .btn-div .bg-btn {
+        font-size: 15px;
+        padding: 10px 14px;
+    }
+
+    .navbar .btn-div .link-btn {
+        font-size: 15px;
+        padding: 10px 14px;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .practical-advice .card-wrpp .cardd {
+        padding: 30px;
+    }
+
+    .navbar .navbar-collapse {
+        position: fixed;
+        top: 100px;
+        left: 0;
+        background: #EBE3D6;
+        right: 0;
+        z-index: 999;
+        padding: 0 12px;
+    }
+
+    .navbar.sticky .navbar-collapse {
+        background: #272961;
+    }
+
+    .navbar .navbar-collapse.sec {
+        top: 198px;
+    }
+
+    .navbar .navbar-toggler {
+        position: fixed;
+        right: 10px;
+        top: 30px;
+        border: none;
+        z-index: 999;
+    }
+
+    .navbar .btn-div {
+        position: fixed;
+        right: 70px;
+        top: 37px;
+    }
+
+    .navbar .btn-div .bg-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .navbar .btn-div .link-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:after {
+        content: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 10px;
+    }
+
+    .navbar .navbar-toggler:focus {
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+
+    .ex-diamond-wrpp {
+        /* -ms-grid-columns: (1fr)[4]; */
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .banner-sec #diamond,
+    .banner-sec #diamond2 {
+        max-width: 86px;
+    }
+
+    .main-title {
+        font-size: 46px;
+    }
+
+    .main-subt {
+        font-size: 20px;
+    }
+
+    .banner-sec .main-title {
+        max-width: 480px;
+    }
+
+    .banner-sec .main-subt {
+        max-width: 580px;
+    }
+
+    .banner-sec .chipole-img {
+        bottom: 0px;
+        max-width: 210px;
+    }
+
+    .banner-sec .details {
+        padding: 110px 0;
+    }
+
+    .ex-diamond-wrpp .d-card img {
+        max-width: 100px;
+    }
+
+    .explore-sec {
+        padding-bottom: 60px;
+    }
+
+    .made-for-diamond,
+    .your-fancy,
+    .our-brilliant,
+    .di-certification {
+        padding: 60px 0;
+    }
+
+    .your-fancy .card-main {
+        margin-top: 20px;
+        padding: 100px 0;
+    }
+
+    .your-fancy .card-main h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .our-brilliant .b-two-img,
+    .our-brilliant .b-one-img,
+    .di-certification .two-i,
+    .di-certification .one-i {
+        display: none;
+    }
+
+    .our-brilliant .svg-logo {
+        position: inherit;
+        top: 0;
+        left: 0;
+        max-width: 140px;
+    }
+
+    .top-que-ans .accordion {
+        margin-top: 30px;
+    }
+
+    .di-certification .bgg {
+        padding: 50px 0;
+    }
+
+    .svn-footer .social-icon {
+        gap: 30px;
+    }
+
+    .issue-page img {
+        max-width: 560px;
+    }
+
+    .text-top h6 {
+        font-size: 17px;
+    }
+
+    .contact-us .nav-pills {
+        padding: 6px;
+    }
+
+    .contact-us .nav-pills .nav-item .nav-link {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .contact-us .address {
+        font-size: 20px;
+    }
+
+    .lets-get {
+        padding: 50px 0;
+    }
+
+    .lets-get .get-form .form-control {
+        height: 60px;
+        font-size: 26px;
+    }
+
+    .lets-get .get-form .form-floating label {
+        font-size: 18px;
+    }
+
+    .talk-to-us .call-main-btn {
+        font-size: 22px;
+    }
+
+    .talk-to-us .main-subt {
+        margin-bottom: 30px;
+    }
+
+    .logos-sec img {
+        max-height: 50px;
+    }
+
+    .navbarsec-link .nav-pills .nav-link {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .navbarsec-link {
+        padding: 10px;
+    }
+
+    .navbarsec-detsils h6 {
+        font-size: 16px;
+    }
+
+    .navbarsec-detsils .main-title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .privacy-details .scrollspy-example {
+        margin-left: 10px;
+    }
+
+    .privacy-details .link {
+        font-size: 14px;
+    }
+
+    .privacy-details h4 {
+        margin-bottom: 12px;
+    }
+
+    .privacy-details h6 {
+        font-size: 16px;
+    }
+
+    .navbar.sticky .navbar-toggler-icon {
+        -webkit-filter: invert(1);
+                filter: invert(1);
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .theme-btn {
+        padding: 14px 25px;
+        font-size: 14px;
+    }
+
+    .banner-sec #diamond,
+    .banner-sec #diamond2,
+    .banner-sec .chipole-img {
+        display: none;
+    }
+
+    .banner-sec .details {
+        padding: 20px 0;
+    }
+
+    .made-for-diamond .details .diamond-three,
+    .made-for-diamond .details .diamond-two,
+    .made-for-diamond .details .diamond-one {
+        display: none;
+    }
+
+    .top-que-ans .accordion-item {
+        padding: 0;
+    }
+
+    .top-que-ans .accordion-header h4 {
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+
+    .top-que-ans .accordion-body {
+        font-size: 15px;
+    }
+
+    .top-que-ans .accordion-button {
+        padding-bottom: 1rem;
+    }
+
+    .top-que-ans .view-btn {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    .talk-to-us .call-main-btn {
+        max-width: 370px;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    .tab-content #mymap {
+        height: 460px;
+    }
+
+    .text-top p {
+        margin-bottom: 10px;
+    }
+
+    .text-top .btn-wrpp {
+        margin-top: 40px;
+    }
+
+    .about-details img {
+        margin: 40px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .navbar-brand .smallscreen {
+        display: block;
+    }
+
+    .navbar .navbar-brand .fullscreen {
+        display: none;
+    }
+
+    .navbar .btn-div .bg-btn,
+    .navbar .btn-div .link-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .ex-diamond-wrpp .d-card img {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .ex-diamond-wrpp h5 {
+        font-size: 16px;
+    }
+
+    .ex-diamond-wrpp {
+        gap: 20px;
+    }
+
+    .made-for-diamond .bgg {
+        padding: 30px 0;
+    }
+
+    .made-for-diamond h3 {
+        font-size: 20px;
+    }
+
+    .made-for-diamond .main-subt {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .made-for-diamond,
+    .your-fancy,
+    .our-brilliant,
+    .top-que-ans,
+    .your-fancy .card-main,
+    .our-brilliant .bgg,
+    .di-certification .bgg,
+    .di-certification,
+    .explore-di {
+        padding: 40px 0;
+    }
+
+    .explore-sec {
+        padding-bottom: 30px;
+    }
+
+    .your-fancy .card-main {
+        padding: 70px 0 100px;
+    }
+
+
+    .issue-page img {
+        max-width: 100%;
+    }
+
+    .issue-page {
+        padding: 130px 0 60px 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .talk-to-us {
+        padding: 20px 0;
+    }
+
+    .talk-to-us .call-main-btn {
+        height: 60px;
+        border-radius: 16px;
+        font-size: 18px;
+    }
+
+    .talk-to-us .call-main-btn svg {
+        margin-right: 6px;
+        max-width: 25px;
+    }
+
+    .logos-sec {
+        display: block;
+        text-align: center;
+    }
+
+    .logos-sec img {
+        width: auto;
+        height: auto;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    .diamond-t .btn-wrpp .theme-btn:first-child {
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .text-top .btn-wrpp {
+        margin-top: 40px;
+    }
+
+    .text-top .theme-btn {
+        display: block;
+        margin: auto;
+    }
+
+    .about-details img {
+        height: 260px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    .navbarsec-link .nav-pills .nav-link {
+        font-size: 13px;
+    }
+
+    .navbar.sticky .fullscreen.sticky {
+        display: none;
+    }
+
+    .contact-us .nav-pills .nav-item .nav-link
+    {
+        font-size: 13px;
+    }
+    .contact-us .nav-pills
+    {
+        margin-bottom: 30px;
+    }
+
+    .navbar
+    {
+        height: 75px;
+    }
+
+    .navbar .navbar-toggler
+    {
+        top: 19px;
+    }
+    .navbar .navbar-collapse
+    {
+        top: 70px;
+    }
+    .navbar .navbar-collapse.sec
+    {
+        top: 167px;
+    }
+
+}
+
+
+@media only screen and (max-width: 575px) {
+    .privacy-details .simple-list-example-scrollspy {
+        display: none !important;
+    }
+
+    .privacy-details h6 {
+        margin-bottom: 30px;
+    }
+
+
+    .navbarsec-link {
+        border-radius: 30px
+    }
+
+    .navbarsec-link .nav-pills .nav-item {
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (max-width: 475px) {
+    .banner-sec {
+        padding: 100px 0 40px;
+    }
+
+    .main-title {
+        font-size: 34px;
+    }
+
+    .main-subt {
+        font-size: 18px;
+    }
+
+    .ex-diamond-wrpp {
+        margin-top: 30px;
+    }
+
+    .ex-diamond-wrpp .d-card img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .your-fancy .card-main h1 {
+        font-size: 32px;
+    }
+
+    .your-fancy .card-main p {
+        font-size: 13px;
+    }
+
+    .svn-footer .social-icon {
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .svn-footer .social-icon .icon svg {
+        max-width: 16px;
+    }
+
+    .svn-footer .social-icon .icon h5 {
+        font-size: 13px;
+        margin-left: 9px;
+    }
+
+    .svn-footer .details .link {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .svn-footer .details h4 {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .svn-footer {
+        padding: 30px 0;
+    }
+
+    .explore-di .details-div h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .explore-di .details-div p {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+}
